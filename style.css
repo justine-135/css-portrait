@@ -1,0 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: black;
+}
+
+p {
+  background-image: url("./pic.jpg");
+  font-size: 8px;
+  color-adjust: 100%;
+  line-height: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
